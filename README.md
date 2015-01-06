@@ -1,2 +1,26 @@
-MySQLDB_RoomReservation
-=======================
+In this project a Booking reservation database management system has been designed. A simple basic project which contains four tables
+named as:
+
+Entities:
+rooms
+room types
+reservations
+guests
+
+Attributes of Entities:
+Entity rooms has attributes of id number,type of id and capacity.
+Entity room_types has attributes of id and description.
+Entity guests has attributes of id_guest,name and identity.
+Entity reservations has attributes of codreservation,idguest,idroom,starting and ending date,payment date.
+
+Certain relationship exists in which 
+idroom of entity room is foreign key pointing to primary key idroom of entity room_type
+idguests of entity reservations is foreign key pointing to primary key idguests of entity room
+
+The E-I (Entity Relationship diagram) is shown in project and their corresponding scripts are generated.
+
+Tools: MYSQL
+Skills: Database Queries. E-I diagrams
+
+File saved at http://www.filedropper.com/db_1
+
